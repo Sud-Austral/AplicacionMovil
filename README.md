@@ -9,6 +9,9 @@ Curso para seguir inicialmente
 
 [Sistema de alerta de incendio](https://snicc.azurewebsites.net/Busqueda/Resultado?engine=ince)
 
+[Api Incendio de Google Engine Earth](https://anin.users.earthengine.app/view/appince)
+
+
 
 
 
