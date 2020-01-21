@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="sistema.monitoreo.sapmi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:9:22-76
+16
+17    <!-- Include required permissions for Google Maps API to run. -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:11:5-44:19
+26        android:allowBackup="true"
+26-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:12:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@drawable/ic_launcher_round"
+29-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:13:9-51
+30        android:label="@string/app_name"
+30-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:14:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:15:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:16:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:17:9-40
+35        <activity android:name="sistema.monitoreo.sapmi.MainActivity" />
+35-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:18:9-59
+35-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:18:19-47
+36        <!--
+37             The API key for Google Maps-based APIs is defined as a string resource.
+38             (See the file "res/values/google_maps_api.xml").
+39             Note that the API key is linked to the encryption key used to sign the APK.
+40             You need a different API key for each encryption key, including the release key that is used to
+41             sign the APK for publishing.
+42             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+43        -->
+44        <meta-data
+44-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:27:9-29:55
+45            android:name="com.google.android.geo.API_KEY"
+45-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:28:13-58
+46            android:value="@string/google_maps_key" />
+46-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:29:13-52
+47
+48        <activity
+48-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:31:9-33:72
+49            android:name="sistema.monitoreo.sapmi.MapsActivity_miUbicacion"
+49-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:32:13-53
+50            android:label="@string/title_activity_maps_mi_ubicacion" />
+50-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:33:13-69
+51        <activity
+51-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:34:9-36:60
+52            android:name="sistema.monitoreo.sapmi.MapsActivity1"
+52-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:35:13-42
+53            android:label="@string/title_activity_maps1" />
+53-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:36:13-57
+54        <activity android:name="sistema.monitoreo.sapmi.splash_Activity" >
+54-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:37:9-43:20
+54-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:37:19-50
+55            <intent-filter>
+55-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:38:13-42:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:39:17-69
+56-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:39:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:41:17-77
+58-->C:\Users\limc_\Documents\GitHub\AplicacionMovil\Clent\SAPMI\app\src\main\AndroidManifest.xml:41:27-74
+59            </intent-filter>
+60        </activity>
+61        <!-- Needs to be explicitly declared on P+ -->
+62        <uses-library
+62-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+63            android:name="org.apache.http.legacy"
+63-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+64            android:required="false" />
+64-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+65
+66        <activity
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+70
+71        <meta-data
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\05bb2eb893bf20ad78f8b5cd59e6a27c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+72            android:name="com.google.android.gms.version"
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\05bb2eb893bf20ad78f8b5cd59e6a27c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+73            android:value="@integer/google_play_services_version" />
+73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\limc_\.gradle\caches\transforms-2\files-2.1\05bb2eb893bf20ad78f8b5cd59e6a27c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+74    </application>
+75
+76</manifest>
