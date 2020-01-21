@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Calculadora</string>
+    <string name="txt_view_String">Estatus del Maestro</string>
+    <string name="txt_matematicas_String">Mátematicas</string>
+    <string name="txt_fisica_String">Física</string>
+    <string name="txt_quimica_String">Química</string>
 </resources>
