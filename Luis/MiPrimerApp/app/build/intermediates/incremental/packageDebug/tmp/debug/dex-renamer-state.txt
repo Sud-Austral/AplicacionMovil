@@ -1,0 +1,4 @@
+#Mon Jan 20 15:43:21 CLST 2020
+base.0=C\:\\Users\\limc_\\Documents\\GitHub\\AplicacionMovil\\Luis\\MiPrimerApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
