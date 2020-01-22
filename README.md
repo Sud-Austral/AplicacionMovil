@@ -11,6 +11,10 @@ Curso para seguir inicialmente
 
 [Api Incendio de Google Engine Earth](https://anin.users.earthengine.app/view/appince)
 
+[Publicar aplicación en Google Play](https://www.youtube.com/watch?v=HAbW0dhRWvI)
+
+
+
 
 
 
