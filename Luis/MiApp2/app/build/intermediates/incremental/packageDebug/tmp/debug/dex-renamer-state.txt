@@ -1,4 +1,4 @@
-#Mon Jan 20 16:43:26 CLST 2020
+#Wed Jan 22 11:20:12 CLST 2020
 base.0=C\:\\Users\\limc_\\Documents\\GitHub\\AplicacionMovil\\Luis\\MiApp2\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
