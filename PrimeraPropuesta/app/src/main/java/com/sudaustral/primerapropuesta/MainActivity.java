@@ -8,6 +8,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,7 +23,9 @@ public class MainActivity extends AppCompatActivity {
         WebView myWebView = (WebView) findViewById(R.id.webview);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        myWebView.setWebViewClient(new WebViewClient());
         myWebView.loadUrl("https://anin.users.earthengine.app/view/movil");
+
         Toast.makeText(this,"Posicione su dispositivo de manera horizontal",   Toast.LENGTH_LONG).show();
     }
 
