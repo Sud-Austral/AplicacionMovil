@@ -13,7 +13,7 @@ Curso para seguir inicialmente
 
 [Publicar aplicación en Google Play](https://www.youtube.com/watch?v=HAbW0dhRWvI)
 
-
+borrar esta linea
 
 
 
