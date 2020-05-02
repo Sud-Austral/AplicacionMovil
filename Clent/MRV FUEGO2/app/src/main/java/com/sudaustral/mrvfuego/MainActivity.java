@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("https://anin.users.earthengine.app/view/movil");
+
+        //myWebView.loadUrl("https://anin.users.earthengine.app/view/movil");
+        myWebView.loadUrl("https://anin.users.earthengine.app/view/revisar");
 
         Toast.makeText(this,"Posicione su dispositivo de manera horizontal",   Toast.LENGTH_LONG).show();
     }
